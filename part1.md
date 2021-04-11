@@ -5,7 +5,6 @@ $ cd /root/
 $ git clone https://github.com/{YOURGITHUBUSERNAME}/{YOURREPONAME}.git # Replace YOURGITHUBUSERNAME with your github username and replace YOURREPONAME with the name of your repo.
 $ cd YOURREPONAME
 ```
-Now that you have repo cloned from GitHub. CD into `YOURREPONAME`. 
 
 After you are in your `YOURREPONAME` directory. Run `rails new .` This command will install a new Ruby on Rails application in the current directory.
 
