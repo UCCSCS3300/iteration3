@@ -1,5 +1,5 @@
 
-## Part 0 (B): Preparation: deploy to Heroku
+## Part 2: Preparation: deploy to Heroku
 
 First, make sure you are in the `cs3300` directory.
 
