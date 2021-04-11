@@ -1,4 +1,4 @@
-## Part 0 (A): Preparation: get your app running locally
+## Part 1: Preparation: get your app running locally
 
 ```sh
 $ cd /root/
