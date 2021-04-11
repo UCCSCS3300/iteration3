@@ -3,6 +3,7 @@
 ```sh
 $ cd /root/
 $ git clone https://github.com/{YOURGITHUBUSERNAME}/{YOURREPONAME}.git # Replace YOURGITHUBUSERNAME with your github username and replace YOURREPONAME with the name of your repo.
+$ cd YOURREPONAME
 ```
 Now that you have repo cloned from GitHub. CD into `YOURREPONAME`. 
 
