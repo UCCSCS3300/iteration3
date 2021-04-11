@@ -44,9 +44,9 @@ Note: If you stop the server by hitting control-C, you will no longer be able to
 
 Lastly, push the new application to Github. 
 ```sh
-cd /root/{YOURPOJECTNAME}
-git add -A
-git status //Make sure all the new files are tracked AND on stage for being committed!!
-git commit -m “Init"
-git push origin master
+$ cd /root/{YOURPOJECTNAME}
+$ git add -A
+$ git status //Make sure all the new files are tracked AND on stage for being committed!!
+$ git commit -m “Init"
+$ git push origin master
 ```
