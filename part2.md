@@ -15,7 +15,7 @@ $ heroku keys:add
 Once your keys are set up (a one-time process), you should be able to create an "app container" on Heroku into which you'll deploy RottenPotatoes:
 
 ```sh
-$ cd /root/cs3300
+$ cd /root/{YOURPOJECTNAME}
 $ git init 
 $ heroku create --stack heroku-18
 ```
