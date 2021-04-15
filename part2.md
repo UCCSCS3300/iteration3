@@ -26,8 +26,8 @@ Confirm the new git associations: `git remote -v`
 You should ONLY see fetch and push associated with heroku. These links automatically are built when you ran `heroku create`.
 
 ```sh
-$ git add *
-$ git commit
+$ git add -A
+$ git commit -m "Pushing to heroku"
 ```
 
 Note that running git commit will open a text editor (defaults to VI but can be changed: https://www.oreilly.com/library/view/gitlab-cookbook/9781783986842/apas07.html). Write your commit message at the top. You can see all changes staged for commit below (the same thing you'd see when running git status). Double check that the list of files staged for commit is correct! After saving the file, confirm that there are no errors.
