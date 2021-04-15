@@ -17,7 +17,7 @@ Once your keys are set up (a one-time process), you should be able to create an 
 ```sh
 $ cd /root/{YOURPOJECTNAME}
 $ git init 
-$ heroku create --stack heroku-18
+$ heroku create --stack heroku-18 # If you miss this step you can run this command to set it `heroku stack:set heroku-18`
 ```
 
 Heroku will assign your app a whimsical name such as `luminous-coconut-237`; once your app is deployed, you would access it at `http://luminous-coconut-237.herokuapp.com`.  You can login to the Heroku website if you want to change the name of your app.
