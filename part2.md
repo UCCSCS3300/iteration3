@@ -75,3 +75,13 @@ $ heroku rake db:seed
 ```
 
 Now you should be able to navigate to your app's URL.  `heroku open` opens your browser to that URL in case you forgot it, however this command does not work on code-esaas, where you will need to navigate to the relevant URL.
+
+You will need to push your code everytime you make a change and re-run the database migration (if required). 
+```sh
+$ git add -A
+$ git commit -m "Commit message"
+$ git push heroku master
+$ heroku rake db:migrate # If required
+```
+
+
