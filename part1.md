@@ -35,7 +35,7 @@ $ rake db:migrate
 
 <details>
   <summary><strong>Self Check Question:</strong> What tables got created by the migrations?</summary>
-  <p><blockquote>The <code>movies</code> table itself and the rails-internal <code>schema_migrations</code> table that records which migrations have been run.</blockquote></p>
+  <p><blockquote>The <code>project</code> table itself and the rails-internal <code>schema_migrations</code> table that records which migrations have been run.</blockquote></p>
 </details>
 <br />
 
