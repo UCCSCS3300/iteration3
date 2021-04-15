@@ -44,7 +44,7 @@ At this point you should be able to run the app locally (`rails server -b 0.0.0.
 
 Note: If you stop the server by hitting control-C, you will no longer be able to visit the Ruby on Rails site. Start the server again by repeating the last command. 
 
-Lastly, push the new application to Github. 
+Lastly, push the new application to Github. (You will need to run the git commands every time you want to push code to GitHub.) 
 ```sh
 $ cd /root/{YOURPOJECTNAME}
 $ git add -A
