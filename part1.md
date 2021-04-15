@@ -50,5 +50,5 @@ $ cd /root/{YOURPOJECTNAME}
 $ git add -A
 $ git status #Make sure all the new files are tracked AND on stage for being committed!!
 $ git commit -m "Init"
-$ git push origin master
+$ git push
 ```
