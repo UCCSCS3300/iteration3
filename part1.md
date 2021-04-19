@@ -17,7 +17,15 @@ group :production do
 end
 ```
 
-and move `gem sqlite3` to the `:development :test` group in the Gemfile. 
+and move 
+```ruby 
+gem sqlite3
+```
+to the 
+```ruby 
+group :development :test 
+```
+in the Gemfile. 
 
 Whenever you start working on a Rails project, the first thing you should do is to run Bundler, to make sure all the app's gems are installed.  Switch to the app's root directory and run `bundle install --without production` (you only need to specify `--without production` the first time, as this setting will be remembered on future runs of Bundler for this project).
 
