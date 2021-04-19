@@ -37,12 +37,10 @@ Rails.application.routes.draw do
 end
 
 ```
-
 <details>
   <summary><strong>Self Check Question:</strong> Why did we have to add a root route?</summary>
   <p><blockquote>You can specify what Rails should route '/' to with the root method</blockquote></p>
 </details>
-<br />
 
 6. Naviage to `localhost:3000/` and ensure that you can still run CRUD operations for the projects
 
