@@ -34,3 +34,5 @@ end
 ```
 
 6. Naviage to `localhost:3000/` and ensure that you can still run CRUD operations for the projects
+
+7. Check in your code to GitHub
