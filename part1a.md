@@ -19,7 +19,7 @@ rake db:migrate
 ```
 
 3. Run the server
-```sh
+```ruby
 
 rails s -b 0.0.0.0
 
