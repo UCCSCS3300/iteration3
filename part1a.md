@@ -23,6 +23,17 @@ rails generate scaffold projects title:string description:text
 rake db:migrate
 ```
 
+<details>
+  <summary><strong>Self Check Question:</strong> How does Rails decide where and how to create the development database?  (Hint: check the <code>db</code> and <code>config</code> subdirectories)</summary>
+  <p><blockquote>The <code>rake db:migrate</code> command creates a local development database (following the specifications in <code>config/database.yml</code>) and runs the migrations in <code>db/migrate</code> to create the app's schema.  It also creates/updates the file <code>db/schema.rb</code> to reflect the latest database schema.  <strong>Note: it's important to keep this file under version control.</strong> </blockquote></p>
+</details>
+<br />
+
+<details>
+  <summary><strong>Self Check Question:</strong> What tables got created by the migrations?</summary>
+  <p><blockquote>The <code>project</code> table itself and the rails-internal <code>schema_migrations</code> table that records which migrations have been run.</blockquote></p>
+</details>
+
 3. Run the server
 ```ruby
 
