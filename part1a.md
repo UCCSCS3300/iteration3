@@ -5,7 +5,7 @@ Beginners introduction to scaffolding with Ruby on Rails.
 
 ## Generate the scaffold
 
-1. Generate the scaffold for the 'Projects' model, view, controller. 
+1. Generate the scaffold for the `Projects` model, view, controller. 
 
 ```ruby
 
