@@ -12,7 +12,11 @@ Beginners introduction to scaffolding with Ruby on Rails.
 rails generate scaffold projects title:string description:text
 
 ```
-
+<details>
+  <summary><strong>Self Check Question:</strong> What is scaffolding?</summary>
+  <p><blockquote>Rails scaffolding is a quick way to generate some of the major pieces of an application. If you want to create the models, views, and controllers for a new resource in a single operation, scaffolding is the tool for the job. <a href="https://guides.rubyonrails.org/v3.2/getting_started.html#getting-up-and-running-quickly-with-scaffolding
+" target="_blank">Read More</a></blockquote></p>
+</details>
 2. Migrate the database: 
 ```ruby
 rake db:migrate
