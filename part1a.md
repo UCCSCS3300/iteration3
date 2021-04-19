@@ -18,7 +18,12 @@ rails generate scaffold projects title:string description:text
 rake db:migrate
 ```
 
-3. Run the server `rails s -b 0.0.0.0`
+3. Run the server
+```sh
+
+rails s -b 0.0.0.0
+
+```
 
 4. Naviage to `localhost:3000/projects` and ensure that you can run CRUD operations for the projects
 
