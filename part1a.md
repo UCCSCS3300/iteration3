@@ -67,3 +67,8 @@ $ git status #Make sure all the new files are tracked AND on stage for being com
 $ git commit -m "Added scaffolding"
 $ git push
 ```
+
+## Helpful links:
+
+
+* https://guides.rubyonrails.org/v3.2/getting_started.html#getting-up-and-running-quickly-with-scaffolding
