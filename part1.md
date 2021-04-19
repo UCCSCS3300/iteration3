@@ -35,7 +35,7 @@ You only need to specify `--without production` the first time, as this setting 
 
 At this point you should be able to run the app locally
 ```ruby
-rails server -b 0.0.0.0`
+rails server -b 0.0.0.0
 ```
 and navigate to `http://localhost:3000` in your browser.  
 
