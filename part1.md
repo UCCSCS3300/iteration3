@@ -29,7 +29,7 @@ in the Gemfile.
 
 Whenever you start working on a Rails project, the first thing you should do is to run Bundler, to make sure all the app's gems are installed.  Switch to the app's root directory and run 
 ```ruby
-bundle install --without production` 
+bundle install --without production
 ```
 You only need to specify `--without production` the first time, as this setting will be remembered on future runs of Bundler for this project.
 
