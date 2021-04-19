@@ -9,7 +9,7 @@ Beginners introduction to scaffolding with Ruby on Rails.
 
 ```ruby
 
-rails generate scaffold projects tite:string description:text
+rails generate scaffold projects title:string description:text
 
 ```
 
