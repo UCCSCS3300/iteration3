@@ -10,7 +10,7 @@ After you are in your `YOURREPONAME` directory. Run `rails new .` This command w
 
 Copy and paste the following line into your projects Gemfile on `line 30`. 
 
-```
+```ruby
 group :production do
   gem 'pg', '~> 0.21' # for Heroku deployment
   gem 'rails_12factor'
