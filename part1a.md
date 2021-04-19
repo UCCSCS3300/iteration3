@@ -43,7 +43,7 @@ rails s -b 0.0.0.0
 
 4. Naviage to `localhost:3000/projects` and ensure that you can run CRUD operations for the projects
 
-5. Add `root` to `routes.rb`:
+5. Add `root` to `config/routes.rb`:
 
 ```ruby
 
