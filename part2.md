@@ -30,8 +30,6 @@ $ git add -A
 $ git commit -m "Pushing to heroku"
 ```
 
-Note that running git commit will open a text editor (defaults to VI but can be changed: https://www.oreilly.com/library/view/gitlab-cookbook/9781783986842/apas07.html). Write your commit message at the top. You can see all changes staged for commit below (the same thing you'd see when running git status). Double check that the list of files staged for commit is correct! After saving the file, confirm that there are no errors.
-
 Finally, we deploy our app to Heroku:
 
 ```sh
@@ -66,12 +64,6 @@ Just as we ran `rake db:migrate` and `rake db:seed` to do first-time database cr
 
 ```sh
 $ heroku rake db:migrate
-```
-
-and
-
-```sh
-$ heroku rake db:seed
 ```
 
 Now you should be able to navigate to your app's URL.  `heroku open` opens your browser to that URL in case you forgot it, however this command does not work on code-esaas, where you will need to navigate to the relevant URL.
