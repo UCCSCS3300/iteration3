@@ -41,7 +41,7 @@ end
 6. Naviage to `localhost:3000/` and ensure that you can still run CRUD operations for the projects
 
 7. Check in your code to GitHub
-```sh
+```bash
 $ git add -A
 $ git status #Make sure all the new files are tracked AND on stage for being committed!!
 $ git commit -m "Added scaffolding"
