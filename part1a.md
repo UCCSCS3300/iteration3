@@ -13,7 +13,10 @@ rails generate scaffold projects title:string description:text
 
 ```
 
-2. Migrate the database: `rake db:migrate`
+2. Migrate the database: 
+```ruby
+rake db:migrate`
+```
 
 3. Run the server `rails s -b 0.0.0.0`
 
