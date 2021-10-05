@@ -66,7 +66,7 @@ Just as we ran `rake db:migrate` and `rake db:seed` to do first-time database cr
 $ heroku rake db:migrate
 ```
 
-Now you should be able to navigate to your app's URL.  `heroku open` opens your browser to that URL in case you forgot it, however this command does not work on code-esaas, where you will need to navigate to the relevant URL.
+Now you should be able to navigate to your app's URL. 
 
 You will need to push your code everytime you make a change and re-run the database migration (if required). 
 ```sh
