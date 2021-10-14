@@ -68,7 +68,7 @@ $ heroku rake db:migrate
 
 Now you should be able to navigate to your app's URL. 
 
-You will need to push your code everytime you make a change and re-run the database migration (if required). 
+You will need to push your code to GitHub and Heroku everytime you make a change and re-run the database migration (if required). 
 ```sh
 $ git add -A
 $ git commit -m "Commit message"
