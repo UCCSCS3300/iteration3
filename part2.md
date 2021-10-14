@@ -60,7 +60,7 @@ which will show an error like:
 ActionView::Template::Error (PG::UndefinedTable: ERROR:  relation "projects" does not exist
 ```
 
-Just as we ran `rake db:migrate` and `rake db:seed` to do first-time database creation locally, we must also cause a database to be created on the Heroku side:
+Just as we ran `rake db:migrate` to do first-time database creation locally, we must also cause a database to be created on the Heroku side:
 
 ```sh
 $ heroku rake db:migrate
