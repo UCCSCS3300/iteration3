@@ -33,7 +33,7 @@ $ git commit -m "Pushing to heroku"
 Finally, we deploy our app to Heroku:
 
 ```sh
-$ git push heroku master
+$ git push heroku main
 ```
 
 (You may see the  following warning the first time - it's fine---answer
