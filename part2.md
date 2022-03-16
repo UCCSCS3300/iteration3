@@ -72,7 +72,7 @@ You will need to push your code to GitHub and Heroku everytime you make a change
 ```sh
 $ git add -A
 $ git commit -m "Commit message"
-$ git push heroku main
+$ git push heroku master
 $ heroku rake db:migrate # If required
 ```
 
