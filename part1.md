@@ -12,7 +12,7 @@ Copy and paste the following line into your projects Gemfile on `line 30`.
 
 ```ruby
 group :production do
-  gem 'pg', '~> 0.21' # for Heroku deployment
+  gem 'pg' # for Heroku deployment
   gem 'rails_12factor'
 end
 ```
